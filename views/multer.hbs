@@ -1,0 +1,38 @@
+<div class="limiter">
+    <div class="container-login100" >
+        <div class="wrap-login100">
+            
+            
+            <span class="login100-form-title" style="font-size: 50px;">
+                File Upload
+            </span>
+            <form class="login100-form validate-form" action="/single" enctype="multipart/form-data" method="POST">
+                <div class="row">
+                    <div class="wrap-input100">
+                        <input type="file" name="doc" placeholder="Choose a file">
+                        <span class="focus-input100"></span>
+                    </div>
+                    <div class="container-login100-form-btn">
+                        <button class="login100-form-btn">
+                            Upload a file
+                        </button>
+                    </div>
+                </div>
+            </form>    
+            <form class="login100-form validate-form" action="/multiple" enctype="multipart/form-data" method="POST">
+                <div class="row" style="padding-top:50%, padding-right:50%">
+                    <div class="wrap-input100">
+                        <input type="file" name="docs" placeholder="Choose files" multiple>
+                        <span class="focus-input100"></span>
+                    </div>
+                    <div class="container-login100-form-btn">
+                        <button class="login100-form-btn">
+                            Upload multiple files
+                        </button>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</div>

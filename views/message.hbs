@@ -1,0 +1,24 @@
+<div class="limiter">
+    <div class="container-login100" >
+        <div class="wrap-login100" style="padding-bottom: 150px">
+            <span style="color: black; font-size:50px ">
+                {{message}}
+                {{#if validity}}
+                    Name: {{validity.userName}}<br>
+                    Age: {{validity.age}}<br>
+                    Validity: {{validity.message}}<br>
+                {{/if}}
+            </span>
+            <span style="color: black; font-size:30px ">
+                {{#if multipleFiles}}
+                    {{#each multipleFiles}}
+                        <li>{{this.originalname}}</li>
+                    {{/each}}
+                {{/if}}
+                {{#if singleFile}}
+                    <li>{{singleFile.originalname}}</li>
+                {{/if}}
+            </span>
+        </div>
+    </div>
+</div>

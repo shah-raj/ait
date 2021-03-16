@@ -1,0 +1,24 @@
+{
+  "name": "exp-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "peter parker",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.1",
+    "express-ws": "^4.0.0",
+    "fs": "0.0.1-security",
+    "https": "^1.0.0",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.7",
+    "prompt-sync": "^4.2.0",
+    "ws": "^7.4.4"
+  }
+}
